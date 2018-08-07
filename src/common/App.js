@@ -5,7 +5,7 @@ import { hot } from 'react-hot-loader';
 import Routes from './Routes';
 import './styles/index.css';
 const App = () => (
-  <div className="container main-app">
+  <div className="main-app">
     <Routes />
   </div>
 );
