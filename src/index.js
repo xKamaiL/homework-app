@@ -3,7 +3,11 @@ import ReactDOM from 'react-dom';
 
 import registerServiceWorker from './registerServiceWorker';
 
-ReactDOM.render(<div>
-	React
-</div>, document.getElementById('root'));
+import { BrowserRouter} from "react-router-dom"
+
+const withReactRouter = () => (
+	
+)
+
+ReactDOM.render(<div>React</div>, document.getElementById('root'));
 registerServiceWorker();
