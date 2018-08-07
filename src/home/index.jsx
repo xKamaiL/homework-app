@@ -22,8 +22,8 @@ const Home = () => (
       </a>. <br /> <DateInfo />
     </Title>
     <Row>
-      <Tab name="Homework" logo="✏️" />
-      <Tab name="Todo" logo="🎉" />
+      <Tab name="Homework" logo="✏️" route="/homework" />
+      <Tab name="Todo" logo="🎉" route="/todo" />
     </Row>
   </HomeWrapper>
 );

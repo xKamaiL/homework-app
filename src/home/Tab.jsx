@@ -1,8 +1,8 @@
 import React from 'react';
-
+import { Link } from 'react-router-dom';
 import styled from 'styled-components';
 
-const TabButton = styled.div`
+const TabButton = styled(Link)`
   cursor: pointer;
   &:hover {
     opacity: 0.8;
@@ -13,7 +13,7 @@ const LogoEmoji = styled.h1`
 `;
 
 const Tab = ({ name, route, logo }) => (
-  <TabButton className="col-md-4">
+  <TabButton className="col-md-4" to={`/${route || ''}`}>
     <div className="card" style={{ background: 'none' }}>
       <div className="card-body">
         <div className="text-center">
