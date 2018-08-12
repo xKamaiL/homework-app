@@ -5,7 +5,7 @@ import DateInfo from './DateInfo';
 import Tab from './Tab';
 import { Row, Col } from './Util';
 
-const Title = styled.h1`
+export const Title = styled.h1`
   border-bottom: 2px solid #cccc;
   text-align: center;
   padding-bottom: 10px;
